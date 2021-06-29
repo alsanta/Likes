@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px red dotted; */
+}
+/* header */
+header {
+    /* background-color: indigo; */
+    min-height: 30px;
+    display: flex;
+}
+#title{
+    min-width: 620px;
+    background-color: black;
+    margin: 0 auto;
+    align-items: center;
+}
+#title h1{
+    margin-left: 1em;
+    color: white;
+}
+#feed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+/* mainBody */
+#mainBody {
+    display: flex;
+    /* min-width: 70%;
+    max-width: 70%; */
+    width: 620px;
+    min-height: 91vh;
+    margin: 0 auto;
+    gap: 20px;
+}
+#leftBody{
+    flex: 1;
+    /* background-color: tomato; */
+    justify-content: flex-end;
+}
+#rightBody{
+    flex: 3;
+    /* background-color: lawngreen; */
+}
+
+/* leftBody */
+#myBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+    width: 160px;
+    border: 1px black solid;
+    height: 250px;
+    background-color: teal;
+}
+
+/* rightBody */
+#messages{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.message1{
+    padding: 10px;
+    border: 1px black solid;
+    height: 100px;
+    background-color: teal;
+}
+.topBar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.rightBar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.rightBar button{
+    padding: 5px 10px;
+    box-shadow: 2px 2px black;
+    background-color: yellow;
+}
+.words1{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}

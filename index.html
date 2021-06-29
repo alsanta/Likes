@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div id="title">
+            <h1>Network</h1>
+        </div>
+    </header>
+    <h2 id="feed">Your Feed</h2>
+    <div id="mainBody">
+        <div id="leftBody">
+            <div id="myBar">
+                <img src="./images/user-circle.png" alt="profilePic" height="60px">
+                <a href="#">Add an avatar</a>
+                <h2>James Doe</h2>
+            </div>
+        </div>
+        <div id="rightBody">
+            <div id="messages">
+                <div class="message1">
+                    <div class="topBar">
+                        <h2>Neil M</h2>
+                        <div class="rightBar">
+                            <h4 id="firstLike">9 Like(s)</h4>
+                            <button onclick="add()">Like</button>
+                        </div>
+                    </div>
+                    <div class="words1">
+                        <p>I just set up this new discord bot,let me </p>
+                        <p>know what you all think <a href="#">link</a></p>
+                    </div>
+                </div>
+                <div class="message1">
+                    <div class="topBar">
+                        <h2>Nichole K</h2>
+                        <div class="rightBar">
+                            <h4 id="secondLike">12 Like(s)</h4>
+                            <button onclick="add2()">Like</button>
+                        </div>
+                    </div>
+                    <div class="words1">
+                        <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+                <div class="message1">
+                    <div class="topBar">
+                        <h2>Jim R</h2>
+                        <div class="rightBar">
+                            <h4 id='thirdLike'>9 Like(s)</h4>
+                            <button onclick="add3()">Like</button>
+                        </div>
+                    </div>
+                    <div class="words1">
+                        <p>I can't stop listening to the <a href="#">new album</a>.</p>
+                        <p>Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
